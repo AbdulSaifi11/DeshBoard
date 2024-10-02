@@ -1,0 +1,1315 @@
+*{
+
+    padding: 0px;
+}
+.page{
+    background-color: rgb(201, 227, 236);
+    height: 510px;
+    width: auto;
+}
+.menu{
+    visibility: hidden;
+}
+.side{
+    background-color: #67b0d1;
+    height: 440px;
+    width: 140px;
+    margin: 20px;
+    border-radius: 12px;
+    display: inline-block;
+}
+.side>a{
+    text-decoration: none;
+    line-height: 45px;
+    margin-left: 5px;
+    background-color: #67b0d1;
+    color:brown;
+}
+#Log{
+    position: relative;
+    top: 73px;
+    left: 2px;
+}
+.side>a>i{
+    text-decoration: none;
+    line-height: 45px;
+    margin-left: 5px;
+    background-color: #67b0d1;
+    color:brown;
+}
+.main{
+    height: 100px;
+    width: 775px;
+    background-color:  #67b0d1;
+    float: right;
+    margin-top: 20px;
+    border-radius: 12px;
+    position: relative;
+    right: 60px;
+}
+.main>img{
+  height: 100px;
+  width: 200px;
+  position: relative;
+  left: 570px;
+  bottom: 97px;
+}
+.main>h2{
+    margin-top:25px;
+    width: 267px;
+    height: 25px;
+    background-color: #92c6de;
+    border-radius: 10px;
+    margin-left: 30px;
+}
+.main>h6{
+    margin-top: -13px;
+    margin-left: 30px;
+    background-color: #67b0d1;
+}
+.main2{
+    width: 436px;
+  height: 107px;
+  float: right;
+  margin-top: -350px;
+  margin-right: 390px;
+  font-weight: bold;
+}
+.main2>#one{
+width: 100px;
+height: 100px;
+background-color: rgba(255, 255, 255, 0.5);
+    box-shadow:0 0 5px black;
+margin: 3px 5px 5px 32px;
+display: inline-block;
+border-radius: 10px;
+}
+.main2>#two{
+    width: 100px;
+    height: 100px;
+    margin: 3px 5px 5px 32px;
+    display: inline-block;
+    border-radius: 10px;
+    position: relative;
+    bottom: 12px;
+    background-color: rgba(255, 255, 255, 0.5);
+    box-shadow:0 0 5px black;
+    }
+.main2>#three{
+    width: 100px;
+    height: 100px;
+    background-color: rgba(255, 255, 255, 0.5);
+    box-shadow:0 0 5px black;
+    margin: 3px 5px 5px 32px;
+    display: inline-block;
+    border-radius: 10px;
+    position: relative;
+    bottom: 23px;
+}
+.main2>#one>p>i{
+    font-size: 4rem;
+    margin-left: 18px;
+    position:relative;
+    bottom: 20px;
+    color: brown;
+}
+.main2>#one>#text{
+    position: relative;
+    bottom: 40px;
+    left: 10px;
+    font-size: 0.8rem;
+    color: brown;
+    font-weight: normal;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.main2>#two>img{
+    height: 74px;
+    width: 74px;
+    position:relative;
+    bottom: 7px;
+    left: 12px;
+    color: brown;
+    
+}
+.main2>#two>#text2{
+    position: relative;
+    bottom: 30px;
+    left: 10px;
+    font-size: 0.8rem;
+    color: brown;
+    font-weight: normal;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+}
+.main2>#three>#text3{
+    position: relative;
+    bottom: 15px;
+    left: 15px;
+    font-size: 1rem;
+    color: brown;
+    font-weight: normal;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+}
+.main2>#three>img{
+    height: 73px;
+    width: 73px;
+    position:relative;
+    bottom: 2px;
+    left: 12px;
+    color: brown;
+    cursor: pointer;
+}
+.main3{
+    height: 100px;
+    width: 390px;
+    display: inline-block;
+    position: relative;
+    left: 237px;
+    bottom: 155px;
+}
+.main3>p{
+    position: relative;
+    bottom: 35px;
+    right: 32px;
+    font-weight: bold;
+}
+#c1{
+    border: 1px solid black;
+    width: 176px;
+    height: 70px;
+    position: relative;
+    bottom: 54px;
+    left: 9px;
+    border-radius: 10px;
+    background-color: #67b0d1;
+    box-shadow:0 0 5px black;
+}
+#c2{
+    border: 1px solid black;
+    width: 176px;
+    height: 70px;
+    position: relative;
+    left: 203px;
+    bottom: 125px;
+    border-radius: 10px;
+    background-color: #67b0d1;
+    box-shadow:0 0 5px black;
+}
+#tc1{
+    position: relative;
+    bottom: 8px;
+    left: 6px;
+    font-size:0.8rem ;
+}
+#imga{
+    width: 70px;
+    height: 70px;
+    position: relative;
+    left: 96px;
+    bottom: 55px;
+}
+button{
+    position: relative;
+    bottom: 70px;
+    right: 50px;
+    background-color: #1a8dc3;
+    border-radius: 10px;
+    width: 50px;
+    border: 1px solid black;
+    cursor: pointer;
+}
+#tc2{
+    position: relative;
+    bottom: 8px;
+    left: 6px;
+    font-size:0.8rem ;
+}
+#imgb{
+    width: 65px;
+    height: 65px;
+    position: relative;
+    left: 96px;
+    bottom: 55px;
+}
+.main3>#c2>button{
+    position: relative;
+    bottom: 65px;
+    right: 50px;
+    background-color: #1a8dc3;
+    border-radius: 10px;
+    width: 50px;
+    border: 1px solid black;
+    cursor: pointer;
+}
+.main3>a{
+    position: relative;
+    bottom: 70px;
+    left: 340px;
+    text-decoration: none;
+}
+.page>.instructor{
+    height: 80px;
+    width: 350px;
+    display: inline-block;
+    position: relative;
+    left: 270px;
+    bottom: 300px;
+}
+.instructor>p{
+    position: relative;
+    bottom: 55px;
+    font-weight: bold;
+}
+.instructor>a{
+    position: relative;
+    bottom: 89px;
+    float: right;
+    margin-right: 40px;
+    text-decoration: none;
+}
+#T1{
+    border: 3px dotted #67b0d1;
+    border-radius: 100%;
+    width: 70px;
+    height: 70px;
+    position: relative;
+    bottom: 47px;
+}
+#T2{
+    border: 3px dotted #67b0d1;
+    border-radius: 100%;
+    width: 70px;
+    height: 70px;
+    position: relative;
+    left: 80px;
+    bottom: 122px;
+    
+}
+#T3{
+    border: 3px dotted #67b0d1;
+    border-radius: 100%;
+    width: 70px;
+    height: 70px;
+    position: relative;
+    left: 160px;
+    bottom: 197px;
+   
+}
+#T4{
+    border: 3px dotted #67b0d1;
+    border-radius: 100%;
+    width: 70px;
+    height: 70px;
+    position: relative;
+    bottom: 272px;
+    float: right;
+    margin-right: 35px;
+   
+}
+#T1>img{
+    width: 70px;
+    height: 70px;
+    border-radius: 100%;
+    cursor:zoom-in;
+}
+#T2>img{
+    width: 70px;
+    height: 70px;
+    border-radius: 100%;
+    cursor:zoom-in;
+}
+#T3>img{
+    width: 70px;
+    height: 70px;
+    border-radius: 100%;
+    cursor:zoom-in;
+}
+#T4>img{
+    width: 70px;
+    height: 70px;
+    border-radius: 100%;
+    cursor:zoom-in;
+}
+.notice{
+    width: 350px;
+    height: 180px;
+    box-shadow: 0 0 0.8px;
+    float: right;
+    position: relative;
+    bottom: 470px;
+    right: 30px;
+    background-color: rgb(210, 223, 228);
+    border-radius: 10px;
+}
+#note{
+    position: relative;
+    bottom: 35px;
+    font-weight: bold;
+}
+.notice>a{
+    float: right;
+    margin-right: 25px;
+    margin-top: -70px;
+    text-decoration: none;
+    cursor: pointer;
+}
+h5{
+    margin-top: -45px;
+    position: relative;
+    left: 5px;
+}
+#para1{
+    position: relative;
+    bottom: 20px;
+    left: 10px;
+}
+#more{
+    position: relative;
+    top: 16px;
+    right: 65px;
+}
+#para2{
+    position: relative;
+    top: 1px;
+    left: 10px;
+}
+#head2{
+    position: relative;
+    top:19px;
+    left: 5px;
+}
+#more2{
+    position: relative;
+    top: 37px;
+    left: 5px;
+}
+@media only screen and (min-width:501px) and (max-width:530px){
+ .side{
+    width: 95px;
+    height: 490px;
+ }
+ .side>a{
+    font-size: 0.81rem;
+ }
+ .main{
+    width: 366px;
+    height: 90px;
+    position: relative;
+    right: 10px;
+ }
+ .main2{
+    position: relative;
+    bottom: 84px;
+    left: 418px;
+
+ }
+ .main2>#one{
+    width: 75px;
+    height: 75px;
+ }
+ .main2>#two{
+    width: 75px;
+    height: 75px;
+ }
+ .main2>#three{
+    width: 75px;
+    height: 75px;
+ }
+ .main2>#one>p>i{
+    font-size: 2.6rem;
+ }
+ .main2>#two>img{
+   height: 50px;
+   width: 50px;
+ }
+ .main2>#three>img{
+    height: 50px;
+   width: 50px;
+ }
+ .main2>p{
+    position: relative;
+    left: 30px;
+ }
+ .main2>#one>#text{
+    font-size: 0.7rem;
+ }
+ .main2>#two>#text2{
+    font-size: 0.7rem;
+ }
+ .main2>#three>#text3{
+    font-size: 0.8rem;
+ }
+ .main3{
+    position: relative;
+    bottom: 268px;
+    left: 140px;
+  }
+#c1{
+    height: 63px;
+    width: 165px;
+    position: relative;
+    left: -15px;
+}
+#c2{
+    height: 63px;
+    width: 165px;
+    position: relative;
+    left: 165px;
+    bottom: 118px;
+}
+#imga{
+    height: 59px;
+    width: 61px;
+}
+#imgb{
+    height: 59px;
+    width: 61px;
+    position: relative;
+    bottom: 58px;
+}
+.main3>p{
+    position: relative;
+    right: 11px;
+}
+.main3>a{
+    position: relative;
+    left: 267px;
+}
+.page>.instructor{
+    position: relative;
+    bottom: 391px;
+    left: 120px;
+    display: block;
+}
+#T1{
+    width: 60px;
+    height: 60px;
+    position: relative;
+    bottom: 64px;
+}
+#T1>img{
+    width: 60px;
+    height: 60px;
+}
+#T2{
+    width: 60px;
+    height: 60px;
+    position: relative;
+    bottom: 131px;
+}
+#T2>img{
+    width: 60px;
+    height: 60px;
+}
+#T3{
+    width: 60px;
+    height: 60px;
+    position: relative;
+    bottom: 133px;
+    left: 0px;
+  }
+#T3>img{
+    width: 60px;
+    height: 60px;
+}
+#T4{
+    visibility: hidden;
+  }
+#T4>img{
+    visibility: hidden;
+}
+.instructor>a{
+    position:relative;
+    right: 170px;
+    top: 41px;
+}
+.notice{
+    position: relative;
+    bottom: 658px;
+    left: 255px;
+    width: 220px;
+    height: 125px;
+}
+#more{
+    position: relative;
+    top: 20px;
+    left: 20px;
+}
+#head2,#para2,#more2{
+    visibility: hidden;
+}
+}
+
+@media only screen and (max-width:500px) {
+    .side{
+        width: 90px;
+        height: 490px;
+        background-color: #67b0d1;
+        position: relative;
+        right: 9px;
+    }
+    .side>a{
+        font-size: 0.75rem;
+        background-color:#67b0d1 ;
+    }
+    
+    .main{
+         width: 350px;
+         height: 70px;
+         background-color: #67b0d1;
+         position: flex;
+         right: 15px;
+    }
+    .main>h2{
+        background-color: #67b0d1;      
+        position: relative;
+        right: 20px;
+        bottom: 20px;
+        font-size: 16px;
+    }
+    .main>h6{
+        background-color: #67b0d1;
+        position: relative;
+        right: 20px;
+        bottom: 20px;
+        font-size: 8.5px;
+    }
+    .main>img{
+        height: 67px;
+  width: 88px;
+  position: relative;
+  left: 265px;
+    bottom: 83px;
+    }
+    .main2{
+        width: 320px;
+        height: 75px;
+        position: relative;
+        left: 350px;
+        bottom:52px;
+    }
+    .main2>#one{
+        width: 63px;
+        height: 63px;
+        background-color: rgba(255, 255, 255, 0.5);
+            box-shadow:0 0 5px black;
+        display: inline-block;
+        border-radius: 10px;
+        position: relative;
+        bottom: 45px;
+        }
+        .main2>#two{
+            width: 63px;
+            height: 63px;
+            display: inline-block;
+            border-radius: 10px;
+            position: relative;
+            bottom: 55px;
+            background-color: rgba(255, 255, 255, 0.5);
+            box-shadow:0 0 5px black;
+            }
+        .main2>#three{
+            width: 63px;
+            height:63px;
+            background-color: rgba(255, 255, 255, 0.5);
+            box-shadow:0 0 5px black;
+            display: inline-block;
+            border-radius: 10px;
+            position: relative;
+            bottom: 62px;
+        }.main2>#one>p>i{
+            font-size: 2rem;
+            margin-left: 16px;
+            position:relative;
+            bottom: 16px;
+            color: brown;
+        }
+        .main2>#one>#text{
+            position: relative;
+            bottom: 36px;
+            left: 8px;
+            font-size: 0.55rem;
+            color: brown;
+            font-weight: normal;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+        .main2>#two>img{
+            height: 45px;
+            width: 45px;
+            position:relative;
+            bottom: 6px;
+            left: 10px;
+            color: brown;
+}
+.main2>#two>#text2{
+    position: relative;
+    bottom: 25px;
+    left: 10px;
+    font-size: 0.55rem;
+    color: brown;
+    font-weight: normal;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.main2>#three>img{
+    height: 43px;
+    width: 43px;
+    position:relative;
+    bottom: 0px;
+    left: 12px;
+    color: brown;
+    cursor: pointer;
+}
+.main2>#three>#text3{
+    position: relative;
+    bottom: 15px;
+    left: 10px;
+    font-size: 0.72rem;
+    color: brown;
+    font-weight: normal;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;   
+}
+.main2>p{
+    font-size: 0.87rem;
+    position: relative;
+    bottom: 35px;
+}
+.main3{
+    height: 78px;
+    width: 338px;
+    display: inline-block;
+    position: relative;
+    left: 155px;
+    bottom: 293px;
+}
+#c1{
+    border: 1px solid black;
+    width: 140px;
+    height: 45px;
+    position: relative;
+    bottom: 59px;
+    left: 3px;
+    border-radius: 10px;
+    background-color: #67b0d1;
+    box-shadow:0 0 5px black;
+}
+#tc1{
+    position: relative;
+    bottom: 8px;
+    left: 6px;
+    font-size:0.55rem ;
+}
+#imga{
+    width: 40px;
+    height: 40px;
+    position: relative;
+    left: 96px;
+    bottom: 39px;
+}
+#c1>button{
+    position: relative;
+    bottom: 43px;
+    right: 40px;
+    background-color: #1a8dc3;
+    border-radius: 10px;
+    width: 34px;
+    border: 1px solid black;
+    cursor: pointer;
+    font-size: 0.65rem;
+}
+#c2{
+    border: 1px solid black;
+    width: 140px;
+    height: 45px;
+    position: relative;
+    left: 167px;
+    bottom: 106px;
+    border-radius: 10px;
+    background-color: #67b0d1;
+    box-shadow:0 0 5px black;
+}
+#imgb{
+    width: 40px;
+    height: 40px;
+    position: relative;
+    left: 96px;
+    bottom: 40px;
+}
+#tc2{
+    position: relative;
+    bottom: 8px;
+    left: 6px;
+    font-size:0.55rem ;
+}
+.main3>#c2>button{
+    position: relative;
+    bottom: 42px;
+    right: 40px;
+    background-color: #1a8dc3;
+    border-radius: 10px;
+    width: 34px;
+    border: 1px solid black;
+    cursor: pointer;
+    font-size: 0.65rem;
+}
+.main3>p{
+    position: relative;
+    bottom: 35px;
+    right: 32px;
+    font-size: 0.87rem;
+}
+.main3>a{
+    position: relative;
+    bottom: 70px;
+    left: 267px;
+    text-decoration: none;
+    font-size: 0.87rem;
+}
+.page>.instructor{
+    height: 147px;
+    width: 190px;
+    display: inline-block;
+    position: relative;
+    left: 120px;
+    bottom: 393px;
+}
+.instructor>p{
+    position: relative;
+    bottom: 55px;
+    font-size: 0.87rem;
+}
+.instructor>a{
+    position: relative;
+    top: 62px;
+    float: right;
+    margin-right: 57px;
+    text-decoration: none;
+    font-size: 0.87rem;
+}
+#T1{
+    border: 3px dotted #67b0d1;
+    border-radius: 100%;
+    width: 50px;
+    height: 50px;
+    position: relative;
+    bottom: 55px;
+}
+#T2{
+    border: 3px dotted #67b0d1;
+    border-radius: 100%;
+    width: 50px;
+    height: 50px;
+    position: relative;
+    left: 75px;
+    bottom: 111px;
+    
+}
+#T3{
+    border: 3px dotted #67b0d1;
+    border-radius: 100%;
+    width: 50px;
+    height: 50px;
+    position: relative;
+    left: 0px;
+    bottom: 105px;
+   
+}
+#T4{
+    border: 3px dotted #67b0d1;
+    border-radius: 100%;
+    width: 50px;
+    height: 50px;
+    position: relative;
+    bottom: 162px;
+    float: right;
+    margin-right: 58px;
+   
+}
+#T1>img{
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    cursor:zoom-in;
+}
+#T2>img{
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    cursor:zoom-in;
+}
+#T3>img{
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    cursor:zoom-in;
+}
+#T4>img{
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    cursor:zoom-in;
+}
+
+.notice{
+    width: 205px;
+    height: 186px;
+    box-shadow: 0 0 0.8px;
+    float: right;
+    position: relative;
+    bottom: 410px;
+    right: 15px;
+    background-color: rgb(210, 223, 228);
+    border-radius: 10px;
+}
+#para1{
+    font-size: 0.78rem;
+    margin-right: 5px;
+}
+#more{
+    position: relative;
+    top: 23px;
+    left: 20px;
+    font-size: 0.78rem;
+}
+.notice>a{
+    font-size: 0.87rem;
+    position: relative;
+    top: 3px;
+}
+#note{
+    position: relative;
+    bottom: 35px;
+    font-size: 0.87rem;
+}
+#para2{
+    visibility: visible;
+    position: relative;
+    bottom: 5px;
+    left: 10px;
+    font-size: 0.78rem;
+    margin-right: 5px;
+}
+#head2{
+    visibility: visible;
+    position: relative;
+    top:15px;
+    left: 5px;
+    font-size: 0.78rem;
+}
+#more2{
+    visibility: visible;
+    position: relative;
+    top: 48px;
+    left: 20px;
+    font-size: 0.78rem;
+}
+
+}
+@media only screen and (max-width:495px) {
+    .side{
+        width: 91px;
+        height: 490px;
+        background-color: #67b0d1;
+        position: relative;
+        right: 9px;
+    }
+.side>a{
+    text-decoration: none;
+    line-height: 45px;
+    margin-left: 3px;
+    background-color: #67b0d1;
+    color:brown;
+}
+}
+@media only screen and (max-width:480px)
+{
+    .side{
+        visibility: hidden;
+    }
+    .side>a{
+        visibility: hidden;
+    }
+    .menu{
+        visibility: visible;
+        position: fixed;
+    }
+    .main{
+        position: relative;
+    bottom: 524px;
+    width: 414px;
+    }
+    .main>img{
+        position: relative;
+    left: 288px;
+    bottom: 81px;
+    width: 125px;
+    }
+    .main>h2{
+        position: relative;
+        left: 28px;
+        bottom: 7px;
+    }
+    .main>h6{
+        position: relative;
+    left: 22px;
+    bottom: 12px;
+    width: 204px;
+    }
+    .main2{
+        position: relative;
+    bottom: 145px;
+    left: 350px;
+    }
+    .main3{
+        position: relative;
+    top:62px;
+    left: 17px;
+    }
+    .page>.instructor{
+        position: relative;
+    bottom: 270px;
+    }
+    .notice{
+        position: relative;
+        bottom: 290px;
+        height:175px;
+    }
+    #more2{
+        position: relative;
+    top: 39px;
+    left: -61px;
+    }
+    #more{
+        position: relative;
+        top: 24px;
+        left: 0px;
+    }
+}
+@media only screen and (max-width:476px)
+{
+    .main{
+       width:400px ;
+    }
+    .main>img{
+        position: relative;
+        left: 275px;
+    }
+}
+@media only screen and (max-width:473px){
+    .main3{
+        position: relative;
+    top: -227px;
+    bottom: -12px;
+    margin-top: -159px;
+    left: 141px;
+    }
+    .main3>a{
+        position: relative;
+        top: -68px;
+        left: 239px;
+      }
+    .page>.instructor{
+        position: relative;
+    bottom: 314px;
+    left: 153px;
+    }
+    .instructor>p{
+        position: relative;
+        right: 45px;
+    }
+    #T3{
+         position: relative;
+    left: 150px;
+    bottom: 168px;
+    }
+    #T4{
+        position: relative;
+    left: 150px;
+    bottom: 222px;
+    }
+    .instructor>a{
+        position: relative;
+    top: -86px;
+    left: 138px;
+    }
+    .notice{
+        height: 67px;
+    width: 314px;
+    position: relative;
+    bottom: 448px;
+    left: -8px;
+    }
+    .notice>p{
+        position: relative;
+        right: 40px;
+    }
+    .notice>a{
+        position: relative;
+        left:24px ;
+    }
+    #more2{
+        visibility: hidden;
+    }
+    #para2{
+        visibility: hidden;
+    }
+    #head2{
+        visibility: hidden;
+    }
+}
+@media only screen and (max-width:455px){
+        .main{
+            width: 370px;
+        }
+        .main>h2{
+            position: relative;
+            left:3px;
+        }
+        .main>h6{
+            position: relative;
+            left:0px;
+        }
+        .main>img{
+            position: relative;
+            left:246px;
+        }
+        .main2{
+            position: relative;
+            left: 393px;
+        }
+        .main2>p{
+            position: relative;
+            right: 22px;
+        }
+        .main3{
+            position: relative;
+    left: 128px;
+        }
+        .main3>#c1{
+            width: 119px;
+        }
+        #c1>img{
+            position: relative;
+            left: 75px;
+        }
+        #c2{
+            width:119px ;
+            position: relative;
+            left: 150px;
+        }
+        #c2>img{
+            position: relative;
+            left: 75px;
+        }
+        .page>.instructor{
+            position: relative;
+    left: 143px;
+        }
+        .notice{
+            width: 276px;
+    position: relative;
+    left: -19px;
+        }
+}
+@media only screen and (max-width:430px){
+.main{
+    width: 345px;
+}
+.main>h2{
+    position: relative;
+    left: -10px;
+    bottom: 10px;
+}
+.main>h6{
+    position: relative;
+    left: -17px;
+    bottom: 15px;
+}
+.main>img{
+    position: relative;
+    left: 235px;
+    bottom: 81px;
+    width: 106px;
+  }
+  .main2{
+    position: relative;
+    left: 385px;
+  }
+  .main2>p{
+    position: relative;
+    right: -29px;
+  }
+  .main3{
+    position: relative;
+    left: 117px;
+  }
+  .main3>p{
+    position: relative;
+    right: -6px;
+  }
+  .main3>a{
+    position: relative;
+    left: 220px;
+  }
+  .page>.instructor{
+    position: relative;
+    left: 129px;
+  }
+  #T2{
+    position: relative;
+    left: 67px;
+  }
+  #T3{
+    position: relative;
+    left: 135px;
+  }
+  #T4{
+    position: relative;
+    left: 124px;
+  }
+  .instructor>p{
+    position: relative;
+    right: 8px;
+  }
+  .instructor>a{
+    position: relative;
+    left: 126px;
+  }
+  #note{
+    position: relative;
+    right: -4px;
+  }
+}
+@media only screen and (max-width:395px){
+    .main{
+        position: relative;
+    width: 313px;
+    }
+    .main>h2{
+        font-size: 0.9rem;
+    }
+    .main>h6{
+        font-size: 0.59rem;
+    }
+    .main>img{
+        width: 91px;
+    position: relative;
+    left: 220px;
+    }
+    .main2{
+        position: relative;
+        left: 418px;
+    }
+    .main2>#one{
+        width: 60px;
+    }
+    .main2>#two{
+        width: 60px;
+        position: relative;
+        right: 12px;
+        bottom: 57px;
+    }
+    .main2>#three{
+        width: 60px;
+    position: relative;
+    right: 25px;
+    bottom: 63px;
+    }
+    .main3{
+        position: relative;
+        left: 102px;
+    }
+    .main3>#c1{
+        width: 95px;
+        position: relative;
+        left: 31px;
+    }
+    #c1>img{
+        visibility: hidden;
+    }
+    #c2{
+        width:95px ;
+        position: relative;
+        left: 150px;
+    }
+    #c2>img{
+        visibility: hidden;
+    }
+    #tc1{
+       position: relative;
+       bottom: 5px;
+        left: 15px;
+    }
+    #tc2{
+        position: relative;
+        bottom: 5px;
+         left: 15px;
+     }
+     .main3>#c1>button{
+        position: relative;
+    right: 18px;
+    bottom: 40px;
+     }
+     .main3>#c2>button{
+        position: relative;
+    right: 18px;
+    bottom: 40px;
+     }
+     .main3>a{
+        position: relative;
+        left: 211px;
+      }
+      .page>.instructor{
+        position: relative;
+    left: 112px;
+  }
+  #T1{
+    position: relative;
+    right: 6px;
+  }
+  #T2{
+    position: relative;
+    left: 59px;
+  }
+  #T3{
+    position: relative;
+    left: 125px;
+  }
+  #T4{
+    position: relative;
+    left: 113px;
+  }
+  .instructor>a{
+    position: relative;
+    left: 116px;
+  }
+  .notice{
+    width: 261px;
+    height: 81px;
+    position: relative;
+    left: -6px;
+  }
+}
+@media only screen and (max-width:375px){
+    .main{
+        width: 298px;
+    }
+    .main>h2{
+        font-size: 0.8rem;
+    }
+    .main>h6{
+        font-size: 0.52rem;
+        position: relative;
+        left: -12px;
+    }
+    .main>img{
+        width: 85px;
+    position: relative;
+    left: 214px;
+    bottom: 77px;
+  }
+  .main3>a{
+    position: relative;
+    left: 202px;
+  }
+}
