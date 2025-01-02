@@ -48,11 +48,11 @@
     right: 60px;
 }
 .main>img{
-  height: 100px;
-  width: 200px;
-  position: relative;
-  left: 570px;
-  bottom: 97px;
+    width: 199px;
+    height: 85px;
+    position: relative;
+    left: 546px;
+    bottom: 85px;
 }
 .main>h2{
     margin-top:25px;
@@ -122,14 +122,12 @@ border-radius: 10px;
     font-weight: normal;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
-.main2>#two>img{
-    height: 74px;
-    width: 74px;
+.main2>#two>p>i{
+    font-size: 3.4rem;
+    margin-left: 25px;
     position:relative;
-    bottom: 7px;
-    left: 12px;
+    bottom: 17px;
     color: brown;
-    
 }
 .main2>#two>#text2{
     position: relative;
@@ -151,14 +149,12 @@ border-radius: 10px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     
 }
-.main2>#three>img{
-    height: 73px;
-    width: 73px;
+.main2>#three>p>i{
+    font-size: 3.4rem;
+    margin-left: 25px;
     position:relative;
-    bottom: 2px;
-    left: 12px;
+    bottom: 17px;
     color: brown;
-    cursor: pointer;
 }
 .main3{
     height: 100px;
@@ -202,7 +198,7 @@ border-radius: 10px;
     left: 6px;
     font-size:0.8rem ;
 }
-#imga{
+.main3>#c1>#imga{
     width: 70px;
     height: 70px;
     position: relative;
@@ -367,7 +363,7 @@ h5{
 #more{
     position: relative;
     top: 16px;
-    right: 65px;
+    left:25px;
 }
 #para2{
     position: relative;
@@ -384,163 +380,730 @@ h5{
     top: 37px;
     left: 5px;
 }
-@media only screen and (min-width:501px) and (max-width:530px){
- .side{
-    width: 95px;
-    height: 490px;
- }
- .side>a{
-    font-size: 0.81rem;
- }
- .main{
-    width: 366px;
-    height: 90px;
-    position: relative;
-    right: 10px;
- }
- .main2{
-    position: relative;
-    bottom: 84px;
-    left: 418px;
-
- }
- .main2>#one{
-    width: 75px;
-    height: 75px;
- }
- .main2>#two{
-    width: 75px;
-    height: 75px;
- }
- .main2>#three{
-    width: 75px;
-    height: 75px;
- }
- .main2>#one>p>i{
-    font-size: 2.6rem;
- }
- .main2>#two>img{
-   height: 50px;
-   width: 50px;
- }
- .main2>#three>img{
-    height: 50px;
-   width: 50px;
- }
- .main2>p{
-    position: relative;
-    left: 30px;
- }
- .main2>#one>#text{
-    font-size: 0.7rem;
- }
- .main2>#two>#text2{
-    font-size: 0.7rem;
- }
- .main2>#three>#text3{
-    font-size: 0.8rem;
- }
- .main3{
-    position: relative;
-    bottom: 268px;
-    left: 140px;
-  }
-#c1{
-    height: 63px;
-    width: 165px;
-    position: relative;
-    left: -15px;
+@media only screen and (max-width:550px) {
+    .side{
+        width: 100px;
+        height: 490px;
+        background-color: #67b0d1;
+        position: relative;
+        right: 9px;
+    }
+    .side>a{
+        font-size: 0.85rem;
+        background-color:#67b0d1 ;
+    }
+    
+    .main{
+         width: 370px;
+         height: 80px;
+         background-color: #67b0d1;
+         position: flex;
+         right: 25px;
+    }
+    .main>h2{
+        background-color: #67b0d1;      
+        position: relative;
+        right: 20px;
+        bottom: 20px;
+        font-size: 20px;
+    }
+    .main>h6{
+        background-color: #67b0d1;
+        position: relative;
+        right: 20px;
+        bottom: 20px;
+        font-size: 11px;
+    }
+    .main>img{
+        height: 80px;
+  width: 100px;
+  position: relative;
+  left: 269px;
+    bottom: 93px;
+    }
+    .main2{
+        width: 330px;
+        height: 80px;
+        position: relative;
+        left: 325px;
+        bottom:52px;
+    }
+    .main2>#one{
+        width: 70px;
+        height: 70px;
+        background-color: rgba(255, 255, 255, 0.5);
+            box-shadow:0 0 5px black;
+        display: inline-block;
+        border-radius: 10px;
+        position: relative;
+        bottom: 48px;
+        }
+        .main2>#two{
+            width: 70px;
+            height: 70px;
+            display: inline-block;
+            border-radius: 10px;
+            position: relative;
+            bottom: 55px;
+            background-color: rgba(255, 255, 255, 0.5);
+            box-shadow:0 0 5px black;
+            }
+        .main2>#three{
+            width: 70px;
+            height: 70px;
+            background-color: rgba(255, 255, 255, 0.5);
+            box-shadow:0 0 5px black;
+            display: inline-block;
+            border-radius: 10px;
+            position: relative;
+            bottom: 65px;
+        }.main2>#one>p>i{
+            font-size: 2.5rem;
+            margin-left: 18px;
+            position:relative;
+            bottom: 16px;
+            color: brown;
+        }
+        .main2>#one>#text{
+            position: relative;
+            bottom: 36px;
+            left: 10px;
+            font-size: 0.6rem;
+            color: brown;
+            font-weight: normal;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+        .main2>#two>img{
+            height: 55px;
+            width: 55px;
+            position:relative;
+            bottom: 7px;
+            left: 12px;
+            color: brown;
 }
-#c2{
-    height: 63px;
-    width: 165px;
+.main2>#two>#text2{
     position: relative;
-    left: 165px;
-    bottom: 118px;
+    bottom: 25px;
+    left: 10px;
+    font-size: 0.6rem;
+    color: brown;
+    font-weight: normal;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.main2>#three>img{
+    height: 50px;
+    width: 50px;
+    position:relative;
+    bottom: 1px;
+    left: 12px;
+    color: brown;
+    cursor: pointer;
+}
+.main2>#three>#text3{
+    position: relative;
+    bottom: 15px;
+    left: 15px;
+    font-size: 0.8rem;
+    color: brown;
+    font-weight: normal;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;   
+}
+.main2>p{
+    font-size: 0.95rem;
+    position: relative;
+    bottom: 35px;
+}
+.main3{
+    height: 80px;
+    width: 340px;
+    display: inline-block;
+    position: relative;
+    left: 170px;
+    bottom: 293px;
+}
+#c1{
+    border: 1px solid black;
+    width: 150px;
+    height: 50px;
+    position: relative;
+    bottom: 54px;
+    left: 9px;
+    border-radius: 10px;
+    background-color: #67b0d1;
+    box-shadow:0 0 5px black;
+}
+#tc1{
+    position: relative;
+    bottom: 8px;
+    left: 6px;
+    font-size:0.6rem ;
 }
 #imga{
-    height: 59px;
-    width: 61px;
+    width: 45px;
+    height: 45px;
+    position: relative;
+    left: 96px;
+    bottom: 45px;
+}
+#c1>button{
+    position: relative;
+    bottom: 47px;
+    right: 40px;
+    background-color: #1a8dc3;
+    border-radius: 10px;
+    width: 38px;
+    border: 1px solid black;
+    cursor: pointer;
+    font-size: 0.7rem;
+}
+#c2{
+    border: 1px solid black;
+    width: 150px;
+    height: 50px;
+    position: relative;
+    left: 180px;
+    bottom: 106px;
+    border-radius: 10px;
+    background-color: #67b0d1;
+    box-shadow:0 0 5px black;
 }
 #imgb{
-    height: 59px;
-    width: 61px;
+    width: 45px;
+    height: 45px;
     position: relative;
-    bottom: 58px;
+    left: 96px;
+    bottom: 45px;
+}
+#tc2{
+    position: relative;
+    bottom: 8px;
+    left: 6px;
+    font-size:0.6rem ;
+}
+.main3>#c2>button{
+    position: relative;
+    bottom: 45px;
+    right: 40px;
+    background-color: #1a8dc3;
+    border-radius: 10px;
+    width: 38px;
+    border: 1px solid black;
+    cursor: pointer;
+    font-size: 0.7rem;
 }
 .main3>p{
     position: relative;
-    right: 11px;
+    bottom: 35px;
+    right: 32px;
+    font-size: 0.95rem;
 }
 .main3>a{
     position: relative;
-    left: 267px;
+    bottom: 70px;
+    left: 290px;
+    text-decoration: none;
+    font-size: 0.95rem;
 }
 .page>.instructor{
-    position: relative;
-    bottom: 391px;
-    left: 120px;
-    display: block;
-}
-#T1{
-    width: 60px;
-    height: 60px;
-    position: relative;
-    bottom: 64px;
-}
-#T1>img{
-    width: 60px;
-    height: 60px;
-}
-#T2{
-    width: 60px;
-    height: 60px;
-    position: relative;
-    bottom: 131px;
-}
-#T2>img{
-    width: 60px;
-    height: 60px;
-}
-#T3{
-    width: 60px;
-    height: 60px;
-    position: relative;
-    bottom: 133px;
-    left: 0px;
-  }
-#T3>img{
-    width: 60px;
-    height: 60px;
-}
-#T4{
-    visibility: hidden;
-  }
-#T4>img{
-    visibility: hidden;
+        height: 140px;
+        width: 195px;
+        display: inline-block;
+        position: relative;
+        left: -207px;
+        bottom: 162px;
 }
 .instructor>a{
-    position:relative;
-    right: 170px;
-    top: 41px;
+    position: relative;
+    top: 60px;
+    float: right;
+    margin-right: 72px;
+    text-decoration: none;
+    font-size: 0.95rem;
+}
+#T1{
+    border: 3px dotted #67b0d1;
+    border-radius: 100%;
+    width: 55px;
+    height: 55px;
+    position: relative;
+    bottom: 50px;
+}
+#T2{
+    border: 3px dotted #67b0d1;
+    border-radius: 100%;
+    width: 55px;
+    height: 55px;
+    position: relative;
+    left: 70px;
+    bottom: 111px;
+    
+}
+#T3{
+    border: 3px dotted #67b0d1;
+    border-radius: 100%;
+    width: 55px;
+    height: 55px;
+    position: relative;
+    left: 0px;
+    bottom: 100px;
+   
+}
+#T4{
+    border: 3px dotted #67b0d1;
+    border-radius: 100%;
+    width: 55px;
+    height: 55px;
+    position: relative;
+    bottom: 233px;
+    float: right;
+    margin-right: -7px;
+   
+}
+#T1>img{
+    width: 55px;
+    height: 55px;
+    border-radius: 100%;
+    cursor:zoom-in;
+}
+#T2>img{
+    width: 55px;
+    height: 55px;
+    border-radius: 100%;
+    cursor:zoom-in;
+}
+#T3>img{
+    width: 55px;
+    height: 55px;
+    border-radius: 100%;
+    cursor:zoom-in;
+}
+#T4>img{
+    width: 55px;
+    height: 55px;
+    border-radius: 100%;
+    cursor:zoom-in;
+}
+.instructor>a{
+    position: relative;
+    top: 61px;
+    float: right;
+    margin-right: 64px;
+    text-decoration: none;
+    font-size: 0.95rem;
 }
 .notice{
+    width: 187px;
+    height: 142px;
+    box-shadow: 0 0 0.8px;
+    float: right;
     position: relative;
-    bottom: 658px;
-    left: 255px;
-    width: 220px;
-    height: 125px;
+    bottom: 410px;
+    right: 17px;
+    background-color: rgb(210, 223, 228);
+    border-radius: 10px;
+}
+#para2{
+   visibility: hidden;
+}
+#head2{
+    visibility: hidden;
+}#more2{
+    visibility: hidden;
 }
 #more{
     position: relative;
-    top: 20px;
+    top: 33px;
     left: 20px;
 }
-#head2,#para2,#more2{
-    visibility: hidden;
-}
+#note{
+    position: relative;
+    bottom: 35px;
+    font-size: 0.93rem;
+    font-weight: bold;
 }
 
+}
+@media only screen and (max-width:540px){
+    .page>.instructor{
+        height: 140px;
+        width: 195px;
+        display: inline-block;
+        position: relative;
+        right: 0px;
+        bottom: 158px;
+        left: -210px;
+      }
+}
+@media only screen and (max-width:539px){
+    .page>.instructor{
+        height: 140px;
+    width: 195px;
+    display: inline-block;
+    position: relative;
+    right: -99px;
+    bottom: 380px;
+    left: 136px;
+      }
+    }
+@media only screen and (max-width:530px) {
+    .side{
+        width: 90px;
+        height: 490px;
+        background-color: #67b0d1;
+        position: relative;
+        right: 9px;
+    }
+    .side>a{
+        font-size: 0.75rem;
+        background-color:#67b0d1 ;
+    }
+    
+    .main{
+         width: 355px;
+         height: 75px;
+         background-color: #67b0d1;
+         position: flex;
+         right: 25px;
+    }
+    .main>h2{
+        background-color: #67b0d1;      
+        position: relative;
+        right: 20px;
+        bottom: 20px;
+        font-size: 18px;
+    }
+    .main>h6{
+        background-color: #67b0d1;
+        position: relative;
+        right: 20px;
+        bottom: 20px;
+        font-size: 9px;
+    }
+    .main>img{
+        height: 70px;
+  width: 90px;
+  position: relative;
+  left: 267px;
+    bottom: 83px;
+    }
+    .main2{
+        width: 322px;
+        height: 77px;
+        position: relative;
+        left: 328px;
+        bottom:52px;
+    }
+    .main2>#one{
+        width: 65px;
+        height: 65px;
+        background-color: rgba(255, 255, 255, 0.5);
+            box-shadow:0 0 5px black;
+        display: inline-block;
+        border-radius: 10px;
+        position: relative;
+        bottom: 48px;
+        }
+        .main2>#two{
+            width: 65px;
+            height: 65px;
+            display: inline-block;
+            border-radius: 10px;
+            position: relative;
+            bottom: 55px;
+            background-color: rgba(255, 255, 255, 0.5);
+            box-shadow:0 0 5px black;
+            }
+        .main2>#three{
+            width: 65px;
+            height:65px;
+            background-color: rgba(255, 255, 255, 0.5);
+            box-shadow:0 0 5px black;
+            display: inline-block;
+            border-radius: 10px;
+            position: relative;
+            bottom: 65px;
+        }.main2>#one>p>i{
+            font-size: 2.1rem;
+            margin-left: 16px;
+            position:relative;
+            bottom: 16px;
+            color: brown;
+        }
+        .main2>#one>#text{
+            position: relative;
+            bottom: 36px;
+            left: 8px;
+            font-size: 0.58rem;
+            color: brown;
+            font-weight: normal;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+        .main2>#two>img{
+            height: 50px;
+            width: 50px;
+            position:relative;
+            bottom: 6px;
+            left: 10px;
+            color: brown;
+}
+.main2>#two>#text2{
+    position: relative;
+    bottom: 25px;
+    left: 10px;
+    font-size: 0.58rem;
+    color: brown;
+    font-weight: normal;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.main2>#three>img{
+    height: 45px;
+    width: 45px;
+    position:relative;
+    bottom: 0px;
+    left: 12px;
+    color: brown;
+    cursor: pointer;
+}
+.main2>#three>#text3{
+    position: relative;
+    bottom: 15px;
+    left: 10px;
+    font-size: 0.75rem;
+    color: brown;
+    font-weight: normal;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;   
+}
+.main2>p{
+    font-size: 0.87rem;
+    position: relative;
+    bottom: 35px;
+}
+.main3{
+    height: 78px;
+    width: 338px;
+    display: inline-block;
+    position: relative;
+    left: 162px;
+    bottom: 293px;
+}
+#c1{
+    border: 1px solid black;
+    width: 140px;
+    height: 45px;
+    position: relative;
+    bottom: 59px;
+    left: 3px;
+    border-radius: 10px;
+    background-color: #67b0d1;
+    box-shadow:0 0 5px black;
+}
+#tc1{
+    position: relative;
+    bottom: 8px;
+    left: 6px;
+    font-size:0.55rem ;
+}
+#imga{
+    width: 40px;
+    height: 40px;
+    position: relative;
+    left: 96px;
+    bottom: 39px;
+}
+#c1>button{
+    position: relative;
+    bottom: 43px;
+    right: 40px;
+    background-color: #1a8dc3;
+    border-radius: 10px;
+    width: 34px;
+    border: 1px solid black;
+    cursor: pointer;
+    font-size: 0.65rem;
+}
+#c2{
+    border: 1px solid black;
+    width: 140px;
+    height: 45px;
+    position: relative;
+    left: 167px;
+    bottom: 106px;
+    border-radius: 10px;
+    background-color: #67b0d1;
+    box-shadow:0 0 5px black;
+}
+#imgb{
+    width: 40px;
+    height: 40px;
+    position: relative;
+    left: 96px;
+    bottom: 40px;
+}
+#tc2{
+    position: relative;
+    bottom: 8px;
+    left: 6px;
+    font-size:0.55rem ;
+}
+.main3>#c2>button{
+    position: relative;
+    bottom: 45px;
+    right: 40px;
+    background-color: #1a8dc3;
+    border-radius: 10px;
+    width: 34px;
+    border: 1px solid black;
+    cursor: pointer;
+    font-size: 0.65rem;
+}
+.main3>p{
+    position: relative;
+    bottom: 35px;
+    right: 32px;
+    font-size: 0.87rem;
+}
+.main3>a{
+    position: relative;
+    bottom: 70px;
+    left: 290px;
+    text-decoration: none;
+    font-size: 0.87rem;
+}
+.page>.instructor{
+    height: 147px;
+    width: 190px;
+    display: inline-block;
+    position: relative;
+    left: 129px;
+    bottom: 393px;
+}
+.instructor>a{
+    position: relative;
+    top: 62px;
+    float: right;
+    margin-right: 57px;
+    text-decoration: none;
+    font-size: 0.95rem;
+}
+#T1{
+    border: 3px dotted #67b0d1;
+    border-radius: 100%;
+    width: 50px;
+    height: 50px;
+    position: relative;
+    bottom: 55px;
+}
+#T2{
+    border: 3px dotted #67b0d1;
+    border-radius: 100%;
+    width: 50px;
+    height: 50px;
+    position: relative;
+    left: 75px;
+    bottom: 111px;
+    
+}
+#T3{
+    border: 3px dotted #67b0d1;
+    border-radius: 100%;
+    width: 50px;
+    height: 50px;
+    position: relative;
+    left: 0px;
+    bottom: 105px;
+   
+}
+#T4{
+    border: 3px dotted #67b0d1;
+    border-radius: 100%;
+    width: 50px;
+    height: 50px;
+    position: relative;
+    bottom: 162px;
+    float: right;
+    margin-right: 58px;
+   
+}
+#T1>img{
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    cursor:zoom-in;
+}
+#T2>img{
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    cursor:zoom-in;
+}
+#T3>img{
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    cursor:zoom-in;
+}
+#T4>img{
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    cursor:zoom-in;
+}
+
+.notice{
+    width: 205px;
+    height: 186px;
+    box-shadow: 0 0 0.8px;
+    float: right;
+    position: relative;
+    bottom: 410px;
+    right: 17px;
+    background-color: rgb(210, 223, 228);
+    border-radius: 10px;
+}
+#para1{
+    font-size: 0.87rem;
+    margin-right: 20px;
+}
+#more{
+    position: relative;
+    top: 33px;
+    left: 20px;
+    font-size: 0.87rem;
+}
+.notice>a{
+    font-size: 0.87rem;
+    position: relative;
+    top: 3px;
+}
+#note{
+    position: relative;
+    bottom: 35px;
+    font-size: 0.87rem;
+}
+#para2{
+    visibility: hidden;
+    position: relative;
+    top: -5px;
+    left: 10px;
+    font-size: 0.87rem;
+    
+}
+#head2{
+    visibility:hidden;
+    position: relative;
+    top:19px;
+    left: 5px;
+    font-size: 0.87rem;
+}
+#more2{
+    visibility:hidden;
+    position: relative;
+    top: 37px;
+    left: 5px;
+    font-size: 0.87rem;
+}
+
+}
 @media only screen and (max-width:500px) {
     .side{
         width: 90px;
@@ -1057,7 +1620,7 @@ h5{
         visibility: hidden;
     }
 }
-@media only screen and (max-width:455px){
+    @media only screen and (max-width:455px){
         .main{
             width: 370px;
         }
